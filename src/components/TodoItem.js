@@ -4,8 +4,8 @@ import Checked from "./Checked";
 function TodoItem(props) {
   const { id, isim, yapildiMi } = props.item;
   const cx = yapildiMi
-    ? "text-white line-through decoration-blue-600"
-    : "text-zinc-400";
+    ? "text-white line-through decoration-gray-600"
+    : "text-black";
 
   function handleToggle() {
     props.handleToggle(id);

@@ -27,9 +27,9 @@ function NewTodo(props) {
     setNewTodo("");
   }
   return (
-    <div className="bg-slate-400  p-6 m-4 rounded-lg shadow-lg">
+    <div className="resim p-6 m-4 rounded-lg">
       <label htmlFor="newTodo" className="text-lg py-1 block">
-        Yeni Todo Ekle
+        New Todo
       </label>
       <form onSubmit={handleSubmit}>
         <div className="flex justify-center gap-2">
@@ -44,7 +44,7 @@ function NewTodo(props) {
             type="submit"
             className="bg-white text-slate-600  px-4 py-2 rounded"
           >
-            Ekle
+            Add
           </button>
         </div>
       </form>

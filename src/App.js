@@ -5,17 +5,17 @@ import { useEffect, useState } from "react";
 const yapilacaklar = [
   {
     id: 1,
-    isim: "Portfolyonu yap",
+    isim: "Make a portfolio",
     yapildiMi: true,
   },
   {
     id: 2,
-    isim: "Portfolyonu deploy et",
+    isim: "Deploy portfolio",
     yapildiMi: false,
   },
   {
     id: 3,
-    isim: "Sunuma hazırlan",
+    isim: "Preparing for the presentation",
     yapildiMi: false,
   },
 ];
